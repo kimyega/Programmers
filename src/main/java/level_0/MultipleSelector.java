@@ -28,6 +28,11 @@ public class MultipleSelector {
         }
 
         String line = sb.toString().trim();
+
+        if (line.isEmpty()) {
+            return new int[0];
+        }
+
         String[] parts = line.split(" ");
         int[] answer = new int[parts.length];
 
