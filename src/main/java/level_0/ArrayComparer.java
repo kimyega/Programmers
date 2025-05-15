@@ -20,7 +20,7 @@ public class ArrayComparer {
             arr2[i] = Integer.parseInt(parts2[i]);
         }
 
-        System.out.println(Arrays.toString(solution(arr1, arr2)));
+        System.out.println(solution(arr1, arr2));
 
     }
     static int solution(int[] arr1, int[] arr2) {
