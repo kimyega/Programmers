@@ -17,7 +17,6 @@ public class QrCode {
 
         System.out.println(solution(q, r, code));
     }
-
     public static String solution(int q, int r, String code) {
         StringBuilder sb = new StringBuilder();
 
