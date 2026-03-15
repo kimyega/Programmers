@@ -27,7 +27,6 @@ public class ArraySlicer {
 
         System.out.println(Arrays.toString(solution(arr, query)));
     }
-
     public static int[] solution(int[] arr, int[] query) {
         int start = 0, end = arr.length - 1;
 
