@@ -12,6 +12,7 @@ public class CollatzSequence {
 
         System.out.println(solution(num));
     }
+
     public static int solution(int num) {
         int answer = 0;
         long lNum = num;
