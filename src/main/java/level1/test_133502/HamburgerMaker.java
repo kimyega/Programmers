@@ -20,7 +20,6 @@ public class HamburgerMaker {
         System.out.println(solution(ingredient));
     }
 
-
     public static int solution(int[] ingredient) {
         int count = 0;
 
