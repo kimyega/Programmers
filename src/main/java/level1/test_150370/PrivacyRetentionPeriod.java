@@ -21,6 +21,12 @@ public class PrivacyRetentionPeriod {
     public static int[] solution(String today, String[] terms, String[] privacies) {
         List<Integer> list = new ArrayList<>();
 
+
+        for (String term : terms) {
+            String[] split = term.split(" ");
+            map.put(split[0].charAt(0), Integer.parseInt(split[1]));
+        }
+
         int todayValue = toDays(today);
 
         for (int i = 0; i < privacies.length; i++) {
